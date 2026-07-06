@@ -16,7 +16,7 @@ The clean replication repository is safe to make public from a sensitive-data an
 | No cache/raw directories included | PASS | No raw cache directory files are committed |
 | No local Windows paths | PASS | Path scan returned no hits outside `.gitignore` patterns |
 | No phone numbers | PASS | U.S.-style phone-number scan returned no hits |
-| No email addresses | PASS | Email-pattern scan returned no hits |
+| No unintended email addresses | PASS | The only email-pattern hit is the manuscript's intentional corresponding-author email |
 | No submission-system files | PASS | File scan returned no hits |
 | No fee or transaction files | PASS | File scan returned no hits |
 | No DOCX/PDF upload package files | PASS | File scan returned no hits |
@@ -24,16 +24,18 @@ The clean replication repository is safe to make public from a sensitive-data an
 | No draft/pilot/archive files | PASS | File scan returned no hits |
 | README title and repository name match | PASS | README title is `real-rate-anomaly-repricing` |
 | README states replication package title | PASS | README names the paper title |
-| README describes W3 robustness and v2 status | PASS | README states W3 placebo, generated-regressor bootstrap, and multiverse PASS |
+| README describes defensive robustness and v2 status | PASS | README states pseudo-break placebo, generated-regressor bootstrap, and multiverse PASS |
 | DATA_LICENSE_NOTICE says raw third-party inputs are not redistributed | PASS | Statement present |
 | `requirements.txt` exists | PASS | Present |
 | `replication_steps.md` exists | PASS | Present |
 | Scripts can be run from repository root in principle | PASS | Python compile check passed |
 | `outputs/w3/` exists and includes W3 reports | PASS | Placebo, bootstrap, and multiverse reports present |
-| `CITATION.cff` has title and author metadata | PASS | Paper title and repository-owner author metadata present |
+| `CITATION.cff` has title and author metadata | PASS | Paper title and `Gibeom An` author metadata present |
 | `LICENSE` exists | PASS | MIT license present |
 | GitHub URL in Data Availability matches | PASS | URL matches manuscript statement |
 
 ## Notes
 
-Raw third-party data are deliberately excluded. Users are directed to regenerate inputs from original public providers using the included scripts. Before public release or DOI minting, the author may replace the repository-owner author metadata in `CITATION.cff` with the preferred formal author name and ORCID.
+Raw third-party data are deliberately excluded. Users are directed to regenerate inputs from original public providers using the included scripts. The manuscript files intentionally include the corresponding-author email so that the public replication package matches the submission metadata.
+
+The labels `w2` and `w3` remain in script names, output-directory names, and audit-trace files only. Public-facing manuscript text uses descriptive language such as international validation, pseudo-break placebo tests, generated-regressor bootstrap, and defensive robustness.

@@ -14,7 +14,7 @@ The included tables, figures, manifests, and manuscript audit files are generate
 
 ## Provider Notes
 
-- Open Asset Pricing files should be obtained from Open Asset Pricing or through the `openassetpricing` package where available.
+- Open Asset Pricing files should be obtained from Open Asset Pricing or through the `openassetpricing` package where available; users should cite Chen and Zimmermann (2022), "Open Source Cross-Sectional Asset Pricing."
 - FRED series should be obtained from FRED.
 - Kenneth French Data Library series should be obtained from the Kenneth French Data Library.
 - JKP Global Factor Data should be obtained from the JKP data provider, with attribution and license limits preserved.

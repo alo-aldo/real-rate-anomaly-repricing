@@ -107,7 +107,7 @@ outputs/w2/w2_bootstrap_summary.csv
 outputs/w2/w2_signal_country_level.csv
 ```
 
-## 8. W3 Defensive Robustness
+## 8. Defensive Robustness
 
 ```powershell
 python scripts/w3_placebo_breaks.py

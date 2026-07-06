@@ -16,5 +16,5 @@ Generated outputs, paper tables, figures, manifests, and manuscript audit artifa
 
 Interpretation caveats:
 
-- W2 uses U.S. real-rate and BEI shocks as global regime variables, not local country-level real-rate shocks.
+- The international validation uses U.S. real-rate and BEI shocks as global regime variables, not local country-level real-rate shocks.
 - The post-2022 monthly panel interaction is negative, so the evidence should be interpreted as regime-break repricing rather than stable monthly real-rate exposure persistence.

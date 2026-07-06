@@ -4,11 +4,11 @@ Replication package for "Real-Rate Exposure and the Repricing of Equity Anomalie
 
 ## Status
 
-This repository is a clean release copy for the v2 manuscript. It includes W3 defensive robustness outputs and does not include the source development history, raw third-party data, submission-system files, fee records, or local upload packages.
+This repository is a clean release copy for the v2 manuscript. It includes defensive robustness outputs and does not include the source development history, raw third-party data, submission-system files, fee records, or local upload packages.
 
 Core finding: pre-2022 real-rate exposure predicts the post-2022 cross-section of equity anomaly returns, consistent with regime-break repricing rather than stable month-by-month real-rate exposure persistence.
 
-W3 defensive robustness status: pseudo-break placebo PASS, generated-regressor bootstrap PASS, and multiverse transparency PASS.
+Defensive robustness status: pseudo-break placebo PASS, generated-regressor bootstrap PASS, and multiverse transparency PASS.
 
 ## Repository Structure
 
@@ -66,5 +66,5 @@ python scripts/w3_multiverse_summary.py
 
 - The evidence is predictive and associative, not a causal identification claim.
 - The post-2022 monthly panel interaction is negative, so the result should not be interpreted as stable month-by-month real-rate exposure persistence.
-- W2 uses U.S. real-rate and BEI shocks as global regime variables, not local country-level real-rate shocks.
+- The international validation uses U.S. real-rate and BEI shocks as global regime variables, not local country-level real-rate shocks.
 - BEI/risk-appetite interpretation is suggestive and not separately identified.
