@@ -9,12 +9,12 @@
 - `data/external_cache/manifest.csv`
 
 ## Key Coefficients
-- X2 real_beta: coef=0.2112, t=4.06
-- X3 real_beta with Cat.Economic FE: coef=0.1848, t=2.85
-- X4 real_beta with Cat.Economic cluster SE: coef=0.2112, t=3.37
+- Preferred real-rate specification: coef=0.2112, t=4.06
+- Category-fixed-effects specification: coef=0.1848, t=2.85
+- Category-clustered specification: coef=0.2112, t=3.37
 
 ## Verification
-- Table 2 coefficients match the verified W1/W1-X summaries up to rounding.
+- Main table coefficients match the verified U.S. evidence summaries up to rounding.
 - Robustness entries are read from the verified extra robustness CSV.
 - No existing research logic or result files were modified.
 

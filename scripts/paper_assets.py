@@ -243,7 +243,7 @@ def build_figures(df: pd.DataFrame, extra: pd.DataFrame, table2_specs: dict[str,
     fig, ax = plt.subplots(figsize=(7, 4))
     ax.bar(period["label"], period["coef"], color="#4c78a8")
     ax.axhline(0, color="black", linewidth=0.7)
-    ax.set_ylabel("X2 real_beta coefficient")
+    ax.set_ylabel("Real-rate beta coefficient")
     ax.set_title("Real-beta coefficient by post period")
     fig.tight_layout()
     fig.savefig(FIGURES / "fig2_period_coefficients.png", dpi=200)
@@ -286,7 +286,7 @@ def build_figures(df: pd.DataFrame, extra: pd.DataFrame, table2_specs: dict[str,
     ax.axvline(0, color="black", linewidth=0.9)
     ax.axvline(boot["real_beta_coef"].quantile(0.025), color="gray", linestyle="--")
     ax.axvline(boot["real_beta_coef"].quantile(0.975), color="gray", linestyle="--")
-    ax.set_xlabel("Bootstrapped X2 real_beta coefficient")
+    ax.set_xlabel("Bootstrapped real-rate beta coefficient")
     ax.set_ylabel("Frequency")
     ax.set_title("Signal bootstrap distribution")
     fig.tight_layout()
@@ -311,12 +311,12 @@ def write_report(table2_specs: dict[str, dict[str, object]], outputs: list[Path]
         "- `data/external_cache/manifest.csv`",
         "",
         "## Key Coefficients",
-        f"- X2 real_beta: coef={x2.params['real_beta']:.4f}, t={x2.tvalues['real_beta']:.2f}",
-        f"- X3 real_beta with Cat.Economic FE: coef={x3.params['real_beta']:.4f}, t={x3.tvalues['real_beta']:.2f}",
-        f"- X4 real_beta with Cat.Economic cluster SE: coef={x4.params['real_beta']:.4f}, t={x4.tvalues['real_beta']:.2f}",
+        f"- Preferred real-rate specification: coef={x2.params['real_beta']:.4f}, t={x2.tvalues['real_beta']:.2f}",
+        f"- Category-fixed-effects specification: coef={x3.params['real_beta']:.4f}, t={x3.tvalues['real_beta']:.2f}",
+        f"- Category-clustered specification: coef={x4.params['real_beta']:.4f}, t={x4.tvalues['real_beta']:.2f}",
         "",
         "## Verification",
-        "- Table 2 coefficients match the verified W1/W1-X summaries up to rounding.",
+        "- Main table coefficients match the verified U.S. evidence summaries up to rounding.",
         "- Robustness entries are read from the verified extra robustness CSV.",
         "- No existing research logic or result files were modified.",
         "",

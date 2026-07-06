@@ -30,6 +30,7 @@ The clean replication repository is safe to make public from a sensitive-data an
 | `replication_steps.md` exists | PASS | Present |
 | Scripts can be run from repository root in principle | PASS | Python compile check passed |
 | `outputs/w3/` exists and includes W3 reports | PASS | Placebo, bootstrap, and multiverse reports present |
+| Public figure labels are descriptive | PASS | Figure 2 and Figure A1 use real-rate beta labels with no internal `X2` label |
 | `CITATION.cff` has title and author metadata | PASS | Paper title and `Gibeom An` author metadata present |
 | `LICENSE` exists | PASS | MIT license present |
 | GitHub URL in Data Availability matches | PASS | URL matches manuscript statement |
