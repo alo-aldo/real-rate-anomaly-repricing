@@ -4,7 +4,7 @@ Gibeom An
 
 Independent researcher
 
-Corresponding author: Gibeom An, angibeom0814@gmail.com
+Corresponding author: Gibeom An, 32192433@dankook.ac.kr
 
 ## Keywords
 
