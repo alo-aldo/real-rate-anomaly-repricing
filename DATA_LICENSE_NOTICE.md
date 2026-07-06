@@ -10,7 +10,7 @@ Raw third-party data are not redistributed in this repository. Users should rege
 
 ## Generated Outputs
 
-The included tables, figures, manifests, and manuscript audit files are generated research artifacts. They are included to document the submitted analysis and to make the computational trail inspectable.
+The included tables, figures, manifests, and manuscript files are generated research artifacts. They are included to document the submitted analysis and to make the computational trail inspectable.
 
 ## Provider Notes
 

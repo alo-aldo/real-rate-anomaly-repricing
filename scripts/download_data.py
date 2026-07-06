@@ -59,8 +59,8 @@ def main():
     prefer = list(dict.fromkeys(prefer))  # 중복 제거, 순서 유지
 
     if not prefer:
-        print("\n자동 매칭 실패 — 위 목록을 그대로 복사해서 Claude에게"
-              " 붙여주세요. 어떤 이름을 쓸지 바로 지정해 드립니다.")
+        print("\n자동 매칭 실패 — 출력된 포트 데이터 목록에서 Predictor 또는"
+              " long-short wide 형식에 해당하는 이름을 확인해 주세요.")
         print(MANUAL)
         sys.exit(1)
 

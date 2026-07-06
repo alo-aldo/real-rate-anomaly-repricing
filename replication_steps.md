@@ -126,14 +126,14 @@ outputs/w3/multiverse_summary.csv
 outputs/w3/multiverse_report.md
 ```
 
-## 9. Manuscript Audit
+## 9. Manuscript Files
 
-The v2 manuscript audit artifacts are included:
+The submission-facing manuscript files are included:
 
 ```text
-manuscript/manuscript_v2_audit.md
-manuscript/manuscript_v2_claim_lint.csv
-manuscript/claim_audit_table_v2.csv
+manuscript/frl_manuscript_submission.md
+manuscript/frl_manuscript_v2.md
+manuscript/highlights_submission.md
+manuscript/highlights_v2.md
+manuscript/references_v1.bib
 ```
-
-The final v2 audit judgment is PASS.

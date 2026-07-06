@@ -4,21 +4,21 @@ Replication package for "Real-Rate Exposure and the Repricing of Equity Anomalie
 
 ## Status
 
-This repository is a clean release copy for the v2 manuscript. It includes defensive robustness outputs and does not include the source development history, raw third-party data, submission-system files, fee records, or local upload packages.
+This repository is a clean replication package for the v2 manuscript. It includes robustness outputs and does not include the source development history, raw third-party data, submission-system files, fee records, or local upload packages.
 
 Core finding: pre-2022 real-rate exposure predicts the post-2022 cross-section of equity anomaly returns, consistent with regime-break repricing rather than stable month-by-month real-rate exposure persistence.
 
-Defensive robustness status: pseudo-break placebo PASS, generated-regressor bootstrap PASS, and multiverse transparency PASS.
+Robustness status: pseudo-break placebo PASS, generated-regressor bootstrap PASS, and multiverse transparency PASS.
 
 ## Repository Structure
 
-- `scripts/`: replication, robustness, audit, and paper-asset scripts.
+- `scripts/`: replication, robustness, and paper-asset scripts.
 - `manifests/`: source-data manifests and download manifests.
 - `outputs/paper/`: paper-ready tables, figures, and appendix outputs.
 - `outputs/w2/`: international JKP validation outputs.
-- `outputs/w3/`: defensive robustness outputs.
+- `outputs/w3/`: robustness outputs.
 - `figures/`: paper figures copied for easy upload or inspection.
-- `manuscript/`: manuscript files, references, and v2 audit artifacts.
+- `manuscript/`: manuscript files, highlights, and references.
 
 ## Data
 
@@ -60,7 +60,7 @@ python scripts/w3_multiverse_summary.py
 - `outputs/w3/generated_regressor_bootstrap_report.md`
 - `outputs/w3/multiverse_report.md`
 - `manuscript/frl_manuscript_v2.md`
-- `manuscript/manuscript_v2_audit.md`
+- `manuscript/frl_manuscript_submission.md`
 
 ## Interpretation Caveats
 

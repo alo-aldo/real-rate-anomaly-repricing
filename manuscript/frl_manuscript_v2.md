@@ -39,7 +39,7 @@ The paper contributes to related literatures. First, it complements work on anom
 
 ## 2. Data and empirical design
 
-The U.S. analysis uses documented anomaly long-short returns and signal documentation from Open Asset Pricing (Chen and Zimmermann, 2022) and constructs pre-2022 exposure measures before observing post-2022 performance. Nominal-rate beta is estimated over 1990-01 to 2021-12. Real-rate and breakeven-inflation betas are estimated over 2003-01 to 2021-12, matching the availability of the real-rate series. The outcome is each signal's post-2022 average long-short return, measured from 2022-01 onward. The data-integrity audit confirms that beta windows end in 2021-12 and do not use post-2022 information.
+The U.S. analysis uses documented anomaly long-short returns and signal documentation from Open Asset Pricing (Chen and Zimmermann, 2022) and constructs pre-2022 exposure measures before observing post-2022 performance. Nominal-rate beta is estimated over 1990-01 to 2021-12. Real-rate and breakeven-inflation betas are estimated over 2003-01 to 2021-12, matching the availability of the real-rate series. The outcome is each signal's post-2022 average long-short return, measured from 2022-01 onward. The data-integrity check confirms that beta windows end in 2021-12 and do not use post-2022 information.
 
 The baseline cross-sectional regression relates post-2022 average returns to pre-2022 real-rate beta and breakeven-inflation beta. The preferred U.S. specification also controls for market beta, pre-period volatility, publication year, and the original in-sample t-statistic. Additional specifications add Cat.Economic fixed effects or cluster standard errors by Cat.Economic category.
 
@@ -69,7 +69,7 @@ Pre-2022 real-rate exposure predicts the post-2022 cross-section of equity anoma
 
 ## Declaration of Generative AI and AI-Assisted Technologies in the Manuscript Preparation Process
 
-During the preparation of this work, the author used AI-assisted tools, including Claude, OpenAI Codex, and ChatGPT, to assist with code development, reproducibility checks, manuscript drafting, and language editing. After using these tools, the author reviewed and edited the content, verified the empirical outputs against local scripts and cached data, and takes full responsibility for the content of the manuscript.
+During the preparation of this work, the author used Claude, OpenAI Codex, and ChatGPT for code assistance, reproducibility checks, document formatting, and language editing. The author reviewed and edited all AI-assisted output, verified the empirical results against the scripts and data described in the replication package, and takes full responsibility for the content of the manuscript.
 
 ## References
 
