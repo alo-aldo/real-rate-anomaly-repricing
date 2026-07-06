@@ -1,0 +1,10 @@
+matplotlib
+numpy
+openassetpricing
+openpyxl
+pandas
+pandas-datareader
+requests
+scipy
+statsmodels
+tabulate

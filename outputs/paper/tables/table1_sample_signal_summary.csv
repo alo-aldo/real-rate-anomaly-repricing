@@ -1,0 +1,14 @@
+Item,Value
+Signals,200
+Pre window for nominal beta,1990-01 to 2021-12
+Pre window for real/BEI beta,2003-01 to 2021-12
+Post window,2022-01 onward
+"Post coverage, min/median/max months",21/36.0/36
+"pre_mean, mean/median",0.0049/0.0043
+"post_mean, mean/median",0.0036/0.0027
+"real_beta, mean/median",0.0017/0.0007
+"bei_beta, mean/median",-0.0064/-0.0003
+Cat.Economic categories,33
+Rotated signals,38
+"Publication year, min/median/max",1973/2006.0/2016
+"In-sample t-stat, mean/median",4.6729/4.0350

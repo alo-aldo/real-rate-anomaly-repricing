@@ -1,0 +1,35 @@
+| check         |   N |     coef |       t |           p | status   | category               |   excluded_n |   month_left_out |   boot_se |   boot_p2_5 |   boot_p97_5 |   share_coef_gt_0 |   skipped |
+|:--------------|----:|---------:|--------:|------------:|:---------|:-----------------------|-------------:|-----------------:|----------:|------------:|-------------:|------------------:|----------:|
+| leave_one_cat | 173 | 0.210736 | 4.06076 | 4.89136e-05 | ok       | R&D                    |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 172 | 0.211552 | 4.06175 | 4.87072e-05 | ok       | accruals               |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 171 | 0.207042 | 3.91712 | 8.96138e-05 | ok       | asset composition      |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 175 | 0.211015 | 4.0555  | 5.00275e-05 | ok       | cash flow risk         |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 172 | 0.225975 | 4.42893 | 9.46999e-06 | ok       | composite accounting   |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 175 | 0.205724 | 3.96344 | 7.38762e-05 | ok       | default risk           |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 174 | 0.213755 | 4.09289 | 4.26038e-05 | ok       | earnings event         |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 172 | 0.214674 | 4.12503 | 3.70683e-05 | ok       | earnings forecast      |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 174 | 0.213582 | 4.10296 | 4.07892e-05 | ok       | earnings growth        |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 164 | 0.178338 | 3.41418 | 0.00063975  | ok       | external financing     |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 175 | 0.21114  | 4.05855 | 4.93789e-05 | ok       | info proxy             |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 169 | 0.217875 | 4.15276 | 3.28493e-05 | ok       | investment             |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 167 | 0.205277 | 3.96821 | 7.24135e-05 | ok       | investment alt         |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 173 | 0.210647 | 4.04353 | 5.26529e-05 | ok       | investment growth      |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 167 | 0.208766 | 3.97631 | 6.99937e-05 | ok       | lead lag               |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 172 | 0.201512 | 3.79523 | 0.000147509 | ok       | leverage               |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 169 | 0.192285 | 3.50272 | 0.000460539 | ok       | liquidity              |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 171 | 0.211213 | 3.95239 | 7.73738e-05 | ok       | long term reversal     |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 165 | 0.247785 | 5.18651 | 2.14266e-07 | ok       | momentum               |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 153 | 0.204256 | 3.73273 | 0.000189416 | ok       | other                  |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 175 | 0.211889 | 4.06049 | 4.89705e-05 | ok       | ownership              |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 172 | 0.208415 | 3.98105 | 6.86103e-05 | ok       | payout indicator       |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 168 | 0.218997 | 4.03316 | 5.50323e-05 | ok       | profitability          |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 174 | 0.209942 | 4.01862 | 5.85393e-05 | ok       | profitability alt      |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 174 | 0.217975 | 4.15051 | 3.31738e-05 | ok       | recommendation         |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 170 | 0.208218 | 4.00869 | 6.10567e-05 | ok       | risk                   |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 172 | 0.210283 | 4.05074 | 5.10555e-05 | ok       | sales growth           |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 172 | 0.235857 | 4.01289 | 5.99798e-05 | ok       | short sale constraints |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 175 | 0.222042 | 4.01285 | 5.9989e-05  | ok       | short-term reversal    |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 175 | 0.210581 | 4.04487 | 5.23511e-05 | ok       | size                   |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 162 | 0.174796 | 3.13816 | 0.00170015  | ok       | valuation              |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 170 | 0.225993 | 4.39052 | 1.13082e-05 | ok       | volatility             |          nan |              nan |       nan |         nan |          nan |               nan |       nan |
+| leave_one_cat | 170 | 0.211097 | 4.04403 | 5.25401e-05 | ok       | volume                 |          nan |              nan |       nan |         nan |          nan |               nan |       nan |

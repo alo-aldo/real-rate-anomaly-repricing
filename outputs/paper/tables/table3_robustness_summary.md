@@ -1,0 +1,17 @@
+| Check                                |   N |   Coefficient |   t-stat |       p-value | Note                                   |
+|:-------------------------------------|----:|--------------:|---------:|--------------:|:---------------------------------------|
+| A1 winsorized post_mean              | 176 |       -0.1606 |  -4.62   |   0           | nominal rate_beta                      |
+| A2 winsorized decay                  | 176 |       -0.1486 |  -4.2    |   0           | nominal rate_beta                      |
+| F pub_year <= 2004                   |  63 |       -0.1859 |  -3.19   |   0.0014      | nominal rate_beta                      |
+| category_collapse                    |  33 |        0.3509 |   2.0085 |   0.0445898   | real_beta category means               |
+| bootstrap_signals_2000               | 176 |        0.2156 | nan      | nan           | 95% CI [0.1172, 0.3213], share>0=1.000 |
+| leave-one-category-out min t         | 153 |        0.1748 |   3.1382 |               | 0 sign flips                           |
+| theme_exclusion_beta_size_liquidity  | 117 |        0.1783 |   3.4099 |   0.000649894 | real_beta X2                           |
+| theme_exclusion_lowvol_lottery       | 154 |        0.2522 |   4.851  |   1.22833e-06 | real_beta X2                           |
+| theme_exclusion_rd_intangible_growth | 152 |        0.2028 |   3.7789 |   0.000157543 | real_beta X2                           |
+| theme_exclusion_momentum_reversal    | 139 |        0.2858 |   5.4433 |   5.22995e-08 | real_beta X2                           |
+| post_mean_2022H1                     | 176 |        0.4801 |   4.2584 |   2.05852e-05 | real_beta X2                           |
+| post_mean_2022H2                     | 176 |        0.4335 |   5.5138 |   3.5116e-08  | real_beta X2                           |
+| post_mean_2023                       | 176 |        0.1564 |   2.7822 |   0.0053996   | real_beta X2                           |
+| post_mean_2024                       | 174 |        0.0209 |   0.3441 |   0.730735    | real_beta X2                           |
+| 2022 leave-one-month-out minimum t   | 176 |        0.389  |   4.6623 |               | all coefficients positive              |

@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the accompanying paper."
+title: "Real-Rate Exposure and the Repricing of Equity Anomalies"
+authors:
+  - family-names: "Author"
+    given-names: "Name"
+repository-code: "https://github.com/alo-aldo/real-rate-anomaly-repricing"
+type: software
+license: MIT

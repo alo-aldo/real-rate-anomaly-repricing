@@ -1,0 +1,2 @@
+check,N,coef,t,p,status,category,excluded_n,month_left_out,boot_se,boot_p2_5,boot_p97_5,share_coef_gt_0,skipped
+bootstrap_signals_2000,176,0.215622416171186,,,,,,,0.0522400538722191,0.117240117011958,0.3212866710255725,1.0,0.0
