@@ -2,7 +2,7 @@
 
 Gibeom An
 
-Independent researcher
+Department of Mobile Systems Engineering, Dankook University
 
 Corresponding author: Gibeom An, 32192433@dankook.ac.kr
 
@@ -16,7 +16,7 @@ G12; G11; E43; E44; C58
 
 ## Abstract
 
-We study whether the 2022 real-rate regime shift is associated with the repricing of documented equity anomalies. For U.S. anomaly portfolios, we estimate each signal's pre-2022 exposure to real-rate and inflation-expectation shocks and ask whether these exposures predict post-2022 long-short returns. Pre-2022 real-rate exposure predicts post-2022 anomaly performance: in the main U.S. specification the real-rate beta coefficient is 0.2112 with a t-statistic of 4.06. The result remains positive with anomaly-category fixed effects and category-clustered standard errors. In contrast, nominal-rate exposure is fragile once market beta and volatility are included. International tests using developed non-U.S. JKP factor-country returns and the same U.S. real-rate and BEI shocks provide out-of-sample evidence consistent with the U.S. finding: the corresponding coefficient is 0.0624 with a t-statistic of 7.72. A monthly panel test is negative, so the evidence is better interpreted as regime-break repricing than as stable month-by-month real-rate exposure persistence.
+This paper studies whether the 2022 real-rate regime shift is associated with the repricing of documented equity anomalies. For U.S. anomaly portfolios, the analysis estimates each signal's pre-2022 exposure to real-rate and inflation-expectation shocks and asks whether these exposures predict post-2022 long-short returns. Pre-2022 real-rate exposure predicts post-2022 anomaly performance: in the main U.S. specification the real-rate beta coefficient is 0.2112 with a t-statistic of 4.06. The result remains positive with anomaly-category fixed effects and category-clustered standard errors. In contrast, nominal-rate exposure is fragile once market beta and volatility are included. International tests using developed non-U.S. JKP factor-country returns and the same U.S. real-rate and BEI shocks provide out-of-sample evidence consistent with the U.S. finding: the corresponding coefficient is 0.0624 with a t-statistic of 7.72. A monthly panel test is negative, so the evidence is better interpreted as regime-break repricing than as stable month-by-month real-rate exposure persistence.
 
 ## Highlights
 
