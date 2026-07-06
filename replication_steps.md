@@ -132,8 +132,6 @@ The submission-facing manuscript files are included:
 
 ```text
 manuscript/frl_manuscript_submission.md
-manuscript/frl_manuscript_v2.md
 manuscript/highlights_submission.md
-manuscript/highlights_v2.md
 manuscript/references_v1.bib
 ```

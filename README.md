@@ -4,7 +4,7 @@ Replication package for "Real-Rate Exposure and the Repricing of Equity Anomalie
 
 ## Status
 
-This repository is a clean replication package for the v2 manuscript. It includes robustness outputs and does not include the source development history, raw third-party data, submission-system files, fee records, or local upload packages.
+This repository is a clean replication package for the submitted manuscript. It includes robustness outputs and does not include the source development history, raw third-party data, submission-system files, fee records, or local upload packages.
 
 Core finding: pre-2022 real-rate exposure predicts the post-2022 cross-section of equity anomaly returns, consistent with regime-break repricing rather than stable month-by-month real-rate exposure persistence.
 
@@ -59,7 +59,6 @@ python scripts/w3_multiverse_summary.py
 - `outputs/w3/placebo_breaks_report.md`
 - `outputs/w3/generated_regressor_bootstrap_report.md`
 - `outputs/w3/multiverse_report.md`
-- `manuscript/frl_manuscript_v2.md`
 - `manuscript/frl_manuscript_submission.md`
 
 ## Interpretation Caveats
