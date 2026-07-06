@@ -233,7 +233,7 @@ def build_figures(df: pd.DataFrame, extra: pd.DataFrame, table2_specs: dict[str,
     ax.set_ylabel("Post-2022 mean long-short return (% per month)")
     ax.set_title("Real-rate exposure and post-2022 anomaly returns")
     fig.tight_layout()
-    fig.savefig(FIGURES / "fig1_real_beta_vs_post_mean.png", dpi=200)
+    fig.savefig(FIGURES / "fig1_real_beta_vs_post_mean.png", dpi=300)
     plt.close(fig)
 
     period = extra[extra["check"].isin([
@@ -246,7 +246,7 @@ def build_figures(df: pd.DataFrame, extra: pd.DataFrame, table2_specs: dict[str,
     ax.set_ylabel("Real-rate beta coefficient")
     ax.set_title("Real-beta coefficient by post period")
     fig.tight_layout()
-    fig.savefig(FIGURES / "fig2_period_coefficients.png", dpi=200)
+    fig.savefig(FIGURES / "fig2_period_coefficients.png", dpi=300)
     plt.close(fig)
 
     comp_rows = []
@@ -270,7 +270,7 @@ def build_figures(df: pd.DataFrame, extra: pd.DataFrame, table2_specs: dict[str,
     ax.set_title("Nominal-rate beta versus real-rate decomposition")
     ax.tick_params(axis="x", rotation=30)
     fig.tight_layout()
-    fig.savefig(FIGURES / "fig3_nominal_vs_decomposed.png", dpi=200)
+    fig.savefig(FIGURES / "fig3_nominal_vs_decomposed.png", dpi=300)
     plt.close(fig)
 
     rng = np.random.default_rng(20260706)
@@ -290,7 +290,7 @@ def build_figures(df: pd.DataFrame, extra: pd.DataFrame, table2_specs: dict[str,
     ax.set_ylabel("Frequency")
     ax.set_title("Signal bootstrap distribution")
     fig.tight_layout()
-    fig.savefig(FIGURES / "figA1_bootstrap_distribution.png", dpi=200)
+    fig.savefig(FIGURES / "figA1_bootstrap_distribution.png", dpi=300)
     plt.close(fig)
     return comp
 
