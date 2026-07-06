@@ -1,12 +1,14 @@
-# Real-Rate Exposure and the Repricing of Equity Anomalies
+# real-rate-anomaly-repricing
 
-Clean replication repository for the paper "Real-Rate Exposure and the Repricing of Equity Anomalies."
+Replication package for "Real-Rate Exposure and the Repricing of Equity Anomalies".
 
 ## Status
 
-This repository is a clean release copy. It does not include the source development history, raw third-party data, submission-system files, fee records, or local upload packages.
+This repository is a clean release copy for the v2 manuscript. It includes W3 defensive robustness outputs and does not include the source development history, raw third-party data, submission-system files, fee records, or local upload packages.
 
 Core finding: pre-2022 real-rate exposure predicts the post-2022 cross-section of equity anomaly returns, consistent with regime-break repricing rather than stable month-by-month real-rate exposure persistence.
+
+W3 defensive robustness status: pseudo-break placebo PASS, generated-regressor bootstrap PASS, and multiverse transparency PASS.
 
 ## Repository Structure
 
